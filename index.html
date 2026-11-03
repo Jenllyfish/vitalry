@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close X</button>
+  <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+  <a href="#" class="w3-bar-item w3-button">PANACEA</a>
+    <a href="#" class="w3-bar-item w3-button">THE VIVARIUM</a>
+  <a href="#" class="w3-bar-item w3-button">OUR STORY</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-container w3-teal">
+  <h1><button class="w3-button" onclick="w3_open()">☰</button><img src="images/vitalrylogo.png" /></h1>
+</div>
+
+<img src="images/panaceaadsmall.png" alt="Car" style="width:100%">
+
+<div class="w3-container">
+<p>The sidebar is hidden by default, (style="display:none")</p>
+<p>You must click on the ☰ symbol to open it.</p>
+<p>The sidebar will hide a part of the page content.</p>
+</div>
+
+<script>
+const sideBar = document.getElementById("mySidebar");
+
+function w3_open() {
+  sideBar.style.display = "block";
+}
+function w3_close() {
+  sideBar.style.display = "none";
+}
+</script>
+     
+</body>
+</html> 
