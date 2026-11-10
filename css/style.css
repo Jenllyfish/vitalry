@@ -3,4 +3,39 @@ body {
     align-items: center;
     margin-top: 6rem;
     margin-bottom: 6rem;
+    margin-left: 24rem;
+    margin-right: 24rem;
+}
+
+.header{
+  padding:1rem 16px}
+
+
+
+.logo{
+max-width: 10%;
+height: auto;
+padding-left: 2rem;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item-grid {
+    flex: 1 1 33%;
+}
+
+.img {
+  max-width: 50%;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  margin-bottom: -.5rem;
+
 }
